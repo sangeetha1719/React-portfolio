@@ -12,15 +12,16 @@ const Skills = () => {
 //     borderRadius: 5,
 // }
 const ball = {
-    width: 150,
+    width: 80,
     height: 100,
-    // backgroundColor: "#dd00ee",
-    borderRadius: "50%",
+    backgroundColor: " #038FD2",
+    borderRadius: "70%",
+    
 }
     return (
         <section id="skills"
-            className=" px-4 w-100 my-4 mw-100 mx-auto">
-            <h2 className="skill text-center  font-bold">
+            className=" px-4  w-100 my-4 mw-100 mx-auto">
+            <h2 className="skill text-center  text-lg font-bold">
                 My Skills...
             </h2>
             <div className="mt-10 w-25 d-flex gap-5 justify-content-center 
@@ -42,7 +43,7 @@ const ball = {
                         // </div>
                          <motion.div
                          key={index}  
-                         className='d-flex align-items-center justify-content-center bg-success-subtle text-lg '  
+                         className='d-flex align-items-center justify-content-center bg-success-subtle text-lg fw-bold py-3'  
                         initial={{ opacity: 0, scale: 0 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{
