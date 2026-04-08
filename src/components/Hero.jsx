@@ -4,7 +4,7 @@ import profilepicImg from '../assets/profile pic.png';
 const Hero = () => {
   return (
     <div className='container relative'>
-      <div class='hero-content'>
+      <div className='hero-content'>
         <h1 className='header fw-bold  display-5  '>Hi, I’m  Sangeetha Prabu</h1>
         <img
           src={profilepicImg}
